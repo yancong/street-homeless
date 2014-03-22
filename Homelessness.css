@@ -23,18 +23,26 @@ p{
 
 #byline{
 	font-style: italic;
-	color:#afafaf;
 }
 .capital{
 	font-size: 50px;
 }
 
 a:link {
-	text-decoration: none;
+	text-decoration:none;
+	color:#afafaf;
 }
 a:visited{
-	background-color: #afafaf;
+	text-decoration:none; 
+	color:#afafaf;
 }
+a:hover{
+	text-decoration:none;
+	color:#666666;} 
+
+a:active{
+	text-decoration:none;
+	color:#666666;}
 
 img{
 	height: 80%;
@@ -57,7 +65,4 @@ div{
 p#copyright{
 	font-family: georgia;
 	font-size: 12px;
-	position:relative;
-	bottom: 0px;
-	left: 500px;
 }
